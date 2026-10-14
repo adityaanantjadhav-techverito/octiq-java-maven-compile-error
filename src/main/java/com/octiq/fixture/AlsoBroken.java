@@ -3,6 +3,6 @@ package com.octiq.fixture;
 public class AlsoBroken {
     public void run() {
         StringBuilder sb = new StringBuilder();
-        sb.doesNotExist();
+        sb.append("ok");
     }
 }
